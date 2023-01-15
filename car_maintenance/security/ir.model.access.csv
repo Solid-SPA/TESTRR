@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_car_maintenance,car_maintenance.car_maintenance,model_car_maintenance,base.group_user,1,1,1,1
+access_car_maintenance_services,car_maintenance.car_maintenance_services,model_car_maintenance_services,base.group_user,1,1,1,1
+access_wz_car_maintenance_report,car_maintenance.wz_car_maintenance_report,model_wz_car_maintenance_report,base.group_user,1,1,1,1
+access_wz_car_maintenance_report_list,car_maintenance.wz_car_maintenance_report_list,model_wz_car_maintenance_report_list,base.group_user,1,1,1,1

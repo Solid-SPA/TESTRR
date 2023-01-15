@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_wz_car_maintenance_report" model="ir.ui.view">
+        <field name="name">Most Requested Service Report</field>
+        <field name="model">wz.car.maintenance.report</field>
+        <field name="arch" type="xml">
+            <form string="Most Requested Service Report">
+                <group>
+                    <field name="date_start" />
+                    <field name="date_end" />
+                </group>
+                <group>
+                 <field name="name_filename" colspan="4" invisible="1"/>
+                 <field name="file_name" filename="name_filename" colspan="4"/>
+              </group>
+                <footer>
+                    <button name="print_report" 
+                        string="Download" 
+                        type="object" 
+                        data-hotkey="q"
+                        class="btn-primary"/>
+                    <button string="Cancel" class="btn-default" special="cancel" data-hotkey="z"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_wz_car_maintenance_report" model="ir.actions.act_window">
+        <field name="name">Most Requested Service Report Excel</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">wz.car.maintenance.report</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="view_wz_car_maintenance_report"/>
+        <field name="target">new</field>
+    </record>
+
+    <menuitem
+        id="report_car_maintenace_menu"
+        name="Reports"
+        parent="car_maintenance.car_maintenance_menu"
+        sequence="3"/>
+
+    <menuitem
+        id="report_car_maintenace_submenu1"
+        name="Report Most Requested Service"
+        action="action_wz_car_maintenance_report"
+        parent="report_car_maintenace_menu"
+        sequence="1"/>
+    
+
+
+    <record id="view_wz_car_maintenance_report2" model="ir.ui.view">
+    <field name="name">More Requested Service Report</field>
+    <field name="model">wz.car.maintenance.report.list</field>
+    <field name="arch" type="xml">
+        <form string="Most Requested Service Report">
+            <group>
+                <field name="date_start" />
+                <field name="date_end" />
+            </group>
+            <group>
+                <field name="name_filename" colspan="4" invisible="1"/>
+                <field name="file_name" filename="name_filename" colspan="4"/>
+            </group>
+                <footer>
+                    <button name="print_report" 
+                        string="Download" 
+                        type="object" 
+                        data-hotkey="q"
+                        class="btn-primary"/>
+                    <button string="Cancel" class="btn-default" special="cancel" data-hotkey="z"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_wz_car_maintenance_report2" model="ir.actions.act_window">
+        <field name="name">More Service Report Excel</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">wz.car.maintenance.report.list</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="view_wz_car_maintenance_report2"/>
+        <field name="target">new</field>
+    </record>
+
+
+
+     <menuitem
+        id="report_car_maintenace_submenu2"
+        name="Report More Service"
+        action="action_wz_car_maintenance_report2"
+        parent="report_car_maintenace_menu"
+        sequence="2"/>
+</odoo>

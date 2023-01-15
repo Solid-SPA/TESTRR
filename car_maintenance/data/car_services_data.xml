@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="product_service_1" model="product.template">
+      	<field name="name">Spark plug change</field>
+        <field name="detailed_type">service</field>
+        <field name="available_in_pos">True</field>
+        <field name="default_code">SERVICE-00001</field>
+        <field name="list_price">105.78</field>
+      	<field name="image_1920" type="base64" file="car_maintenance/static/src/img/cambio_bujias.jpg"/>
+      </record>
+
+    <record id="product_service_2" model="product.template">
+      	<field name="name">Oil and filter change</field>
+        <field name="detailed_type">service</field>
+        <field name="available_in_pos">True</field>
+        <field name="default_code">SERVICE-00002</field>
+        <field name="list_price">142.34</field>
+      	<field name="image_1920" type="base64" file="car_maintenance/static/src/img/cambio_aceite_filtro.jpeg"/>
+      </record>
+
+    <record id="product_service_3" model="product.template">
+      	<field name="name">Change of the gasoline and air filter.</field>
+        <field name="detailed_type">service</field>
+        <field name="available_in_pos">True</field>
+        <field name="default_code">SERVICE-00003</field>
+        <field name="list_price">205.34</field>
+      	<field name="image_1920" type="base64" file="car_maintenance/static/src/img/cambio_filtro_gaso_aire.jpeg"/>
+      </record>
+    
+    <record id="product_service_4" model="product.template">
+      	<field name="name">Change of coolant.</field>
+        <field name="detailed_type">service</field>
+        <field name="available_in_pos">True</field>
+        <field name="default_code">SERVICE-00004</field>
+        <field name="list_price">85.96</field>
+      	<field name="image_1920" type="base64" file="car_maintenance/static/src/img/cambio_refrigerante.jpeg"/>
+      </record>
+
+    <record id="product_service_5" model="product.template">
+      	<field name="name">Changing the alternator belt.</field>
+        <field name="detailed_type">service</field>
+        <field name="available_in_pos">True</field>
+        <field name="default_code">SERVICE-00005</field>
+        <field name="list_price">235.34</field>
+      	<field name="image_1920" type="base64" file="car_maintenance/static/src/img/cambio_correa1.jpeg"/>
+      </record>
+
+    <record id="product_service_6" model="product.template">
+      	<field name="name">Setting the ignition time.</field>
+        <field name="detailed_type">service</field>
+        <field name="available_in_pos">True</field>
+        <field name="default_code">SERVICE-00006</field>
+        <field name="list_price">385.96</field>
+      	<field name="image_1920" type="base64" file="car_maintenance/static/src/img/set_ignition_time.jpeg"/>
+      </record>
+
+    <record id="product_service_7" model="product.template">
+      	<field name="name">Checking the lights and headlights.</field>
+        <field name="detailed_type">service</field>
+        <field name="available_in_pos">True</field>
+        <field name="default_code">SERVICE-00007</field>
+        <field name="list_price">235.56</field>
+      	<field name="image_1920" type="base64" file="car_maintenance/static/src/img/Checkingthelightsandheadlights.jpeg"/>
+      </record>
+    
+    <record id="product_service_8" model="product.template">
+      	<field name="name">Clutch adjustment.</field>
+        <field name="detailed_type">service</field>
+        <field name="available_in_pos">True</field>
+        <field name="default_code">SERVICE-00008</field>
+        <field name="list_price">385.78</field>
+      	<field name="image_1920" type="base64" file="car_maintenance/static/src/img/Clutchadjustment.jpeg"/>
+      </record>
+
+
+    <record id="product_service_9" model="product.template">
+      	<field name="name">Review of the levels of: the box, the battery and the hydraulics.</field>
+        <field name="detailed_type">service</field>
+        <field name="available_in_pos">True</field>
+        <field name="default_code">SERVICE-00009</field>
+        <field name="list_price">585.56</field>
+      	<field name="image_1920" type="base64" file="car_maintenance/static/src/img/Reviewofthelevels.jpeg"/>
+      </record>
+
+
+    <record id="product_service_10" model="product.template">
+      	<field name="name">Cleaning battery terminals.</field>
+        <field name="detailed_type">service</field>
+        <field name="available_in_pos">True</field>
+        <field name="default_code">SERVICE-00010</field>
+        <field name="list_price">155.34</field>
+      	<field name="image_1920" type="base64" file="car_maintenance/static/src/img/Cleaningbatteryterminals.jpeg"/>
+      </record>
+
+    <record id="product_service_11" model="product.template">
+      	<field name="name">Review of the brakes and the front end.</field>
+        <field name="detailed_type">service</field>
+        <field name="available_in_pos">True</field>
+        <field name="default_code">SERVICE-00011</field>
+        <field name="list_price">385.96</field>
+      	<field name="image_1920" type="base64" file="car_maintenance/static/src/img/Reviewofthebrakesandthefrontend.jpeg"/>
+      </record>
+
+
+
+</odoo>

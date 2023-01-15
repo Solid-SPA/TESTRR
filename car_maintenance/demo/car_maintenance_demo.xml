@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="0">
+    <!--Users-->
+    <record id="base.user_demo" model="res.users">
+        <field name="groups_id" eval="[(4, ref('base.group_user'))]" />
+    </record>
+
+    <!--Clients-->
+    <record id="carm_client_1" model="res.partner">
+        <field name="name">EDUARDO GOMEZ</field>
+    </record>
+
+    <record id="carm_client_2" model="res.partner">
+          <field name="name">JOSE RODRIGUEZ</field>
+    </record>
+   <record id="carm_client_3" model="res.partner">
+          <field name="name">RAFAEL GOMEZ</field>
+    </record>
+
+    <record id="carm_client_4" model="res.partner">
+          <field name="name">ANTERO RODRIGUEZ</field>
+    </record>
+
+    <record id="carm_client_5" model="res.partner">
+          <field name="name">MILENA URBINA</field>
+    </record>
+    <record id="carm_client_6" model="res.partner">
+          <field name="name">JOSEP PALACIOS</field>
+    </record>
+
+
+    <record id="carm_service_1" model="car.maintenance">
+          <field name="car_plate">1-ACK-205</field>
+          <field name="partner_id" ref="carm_client_1" />
+          <field name="date_service" eval="(DateTime.now() - timedelta(days=336)).strftime('%Y-%m-%d')" />
+          <field name="state">in_process</field>
+          <field name="amount_service">1542</field>
+    </record>
+
+    <record id="servicesADD_1" model="car.maintenance.services">
+        <field name="car_maintenance_id" ref="carm_service_1"/>
+        <field name="product_id" ref="car_maintenance.product_service_3"/>
+    </record>
+
+
+     <record id="carm_service_2" model="car.maintenance">
+          <field name="car_plate">1-FDFD-205</field>
+          <field name="partner_id" ref="carm_client_2" />
+          <field name="date_service" eval="(DateTime.now())" />
+          <field name="state">in_process</field>
+          <field name="amount_service">854</field>
+    </record>
+
+    <record id="servicesADD_2" model="car.maintenance.services">
+        <field name="car_maintenance_id" ref="carm_service_2"/>
+        <field name="product_id" ref="car_maintenance.product_service_3"/>
+    </record>
+
+     <record id="servicesADD_3" model="car.maintenance.services">
+        <field name="car_maintenance_id" ref="carm_service_2"/>
+        <field name="product_id" ref="car_maintenance.product_service_4"/>
+    </record>
+
+
+    <record id="carm_service_3" model="car.maintenance">
+          <field name="car_plate">DB4-345</field>
+          <field name="partner_id" ref="carm_client_3" />
+          <field name="date_service" eval="(DateTime.now() - timedelta(days=354)).strftime('%Y-%m-%d')" />
+          <field name="state">in_process</field>
+          <field name="amount_service">895</field>
+    </record>
+
+    <record id="servicesADD_4" model="car.maintenance.services">
+        <field name="car_maintenance_id" ref="carm_service_3"/>
+        <field name="product_id" ref="car_maintenance.product_service_2"/>
+    </record>
+
+    <record id="carm_service_4" model="car.maintenance">
+          <field name="car_plate">34FDF-34S</field>
+          <field name="partner_id" ref="carm_client_4" />
+          <field name="date_service" eval="(DateTime.now() - timedelta(days=354)).strftime('%Y-%m-%d')" />
+          <field name="state">in_process</field>
+          <field name="amount_service">566</field>
+    </record>
+
+    <record id="servicesADD_5" model="car.maintenance.services">
+        <field name="car_maintenance_id" ref="carm_service_4"/>
+        <field name="product_id" ref="car_maintenance.product_service_2"/>
+    </record>
+
+    <record id="servicesADD_6" model="car.maintenance.services">
+        <field name="car_maintenance_id" ref="carm_service_4"/>
+        <field name="product_id" ref="car_maintenance.product_service_8"/>
+    </record>
+
+    <record id="servicesADD_7" model="car.maintenance.services">
+        <field name="car_maintenance_id" ref="carm_service_4"/>
+        <field name="product_id" ref="car_maintenance.product_service_4"/>
+    </record>
+
+
+    <record id="carm_service_5" model="car.maintenance">
+          <field name="car_plate">34S23-45D</field>
+          <field name="partner_id" ref="carm_client_5" />
+          <field name="date_service" eval="(DateTime.now() - timedelta(days=354)).strftime('%Y-%m-%d')" />
+          <field name="state">in_process</field>
+          <field name="amount_service">456</field>
+    </record>
+
+    <record id="servicesADD_8" model="car.maintenance.services">
+        <field name="car_maintenance_id" ref="carm_service_5"/>
+        <field name="product_id" ref="car_maintenance.product_service_2"/>
+    </record>
+
+
+    <record id="servicesADD_9" model="car.maintenance.services">
+        <field name="car_maintenance_id" ref="carm_service_5"/>
+        <field name="product_id" ref="car_maintenance.product_service_4"/>
+    </record>
+
+
+
+    <record id="carm_service_6" model="car.maintenance">
+          <field name="car_plate">DFR-345D</field>
+          <field name="partner_id" ref="carm_client_6" />
+          <field name="date_service" eval="(DateTime.now())" />
+          <field name="state">in_process</field>
+          <field name="amount_service">534</field>
+    </record>
+
+    <record id="servicesADD_10" model="car.maintenance.services">
+        <field name="car_maintenance_id" ref="carm_service_6"/>
+        <field name="product_id" ref="car_maintenance.product_service_7"/>
+    </record>
+
+
+    <record id="servicesADD_11" model="car.maintenance.services">
+        <field name="car_maintenance_id" ref="carm_service_6"/>
+        <field name="product_id" ref="car_maintenance.product_service_11"/>
+    </record>
+
+
+
+</odoo>
