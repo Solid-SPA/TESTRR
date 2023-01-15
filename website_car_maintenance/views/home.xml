@@ -1,0 +1,155 @@
+<odoo>
+  <data>
+
+
+    <template id="THomeServices" name="Home Website">
+          <t t-call="website.layout">
+          <t t-set="pageService" t-value="'homepage'"/>
+          <div id="wrap" class="oe_structure oe_empty home_wrapper">
+           <div class="container">
+             <div class="row align-items-stretch">
+              <div><br/><br/><h2 class="elementor-heading-title elementor-size-default">Maintenance for your car</h2>		<br/><br/></div>
+
+            </div>
+          </div>
+            <section class="s_text_image pt32 pb32 o_colored_level" data-snippet="s_image_text" data-name="Image - Text">
+              <div class="container">
+                <div class="row align-items-stretch">
+                  <div class="col-lg-6 o_colored_level pt0 pb0" style="">
+                    <img src="/website_car_maintenance/static/src/images/Group-31.png" class="img img-fluid-custom" alt="" loading="eager" data-original-title="" title="" aria-describedby="tooltip334200" style="" data-original-id="2729" data-original-src="/website_car_maintenance/static/src/images/Group-31.png" data-mimetype="image/png" data-resize-width="500"/>
+                  </div>
+                  <div class="info-texts o_colored_level pt0 offset-lg-1 col-lg-5 pb0">
+                    <div class="info-container">
+                      <h4 class="info__tittle"> Engine tuning </h4>
+                      <p class="info__description">
+                        <span style="font-size: 11pt;  font-family: Montserrat, sans-serif; color: var(--off-white); background-color: transparent; ">Automotive tuning, car tuning, automobiles, vehicles, engine tuning. </span>
+                      </p>
+                    </div>
+                    <div class="info-container ">
+                      <h4 class="info__tittle"> Change of brake pads </h4>
+                      <p class="info__description">
+                        <span style="font-size: 11pt;  font-family: Montserrat, sans-serif; color: var(--off-white); background-color: transparent;">At Autosonline, you will find the best offer at convenient prices, for services that change brake pads, repair ABS brakes, rectify and change discs, in Santiago, and regions throughout Chile. Quote online now! You just have to select the company of your interest and you will get the best advice from its executives.</span>
+                      </p>
+                    </div>
+                    <div class="info-container">
+                      <h4 class="info__tittle">
+                      Cleaning of injectors
+                      
+                    </h4>
+                      <p class="info__description">
+                        <span style="font-size: 11pt;  font-family: Montserrat, sans-serif; color: var(--off-white); background-color: transparent;">Cleaning Diesel and Petrol Car Injectors, for Vehicles, Cars, Trucks, Electronic Injection. You can also review information about Injectors and Diesel Injection. Cleaning of Injectors by Ultrasound, Cleaning of Injectors by Sweeping.</span>
+                      </p>
+                    </div>
+                    <div class="info-container">
+                      <h4 class="info__tittle">
+              Automotive Air Conditioning Repair
+                      </h4>
+                      <p class="info__description">
+                        <span style="font-size: 11pt;  font-family: Montserrat, sans-serif; color: var(--off-white); background-color: transparent;">Find all the information of companies that repair Automotive air conditioning. Air conditioning repair for all types of cars and vehicles in Chile.</span>
+                      </p>
+                    </div>
+                   
+                  </div>
+                </div>
+              </div>
+            </section>
+          
+
+            </div>
+          </t>
+    </template>
+
+
+    <template id="THomeServicesFrontendLayoutFooter" inherit_id="website.layout" name="Template Footer Default">
+    <xpath expr="//div[@id='footer']" position="replace">
+    <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer" style="">
+      <section class="s_text_block pb24 pt32" data-snippet="s_text_block" data-name="Text">
+        <div class="container-fluid">
+          <div class="row">
+
+            <div class="o_colored_level pb0 col-lg-2">
+              <h5 style="color: rgb(255, 255, 255);">
+                <font style="color: rgb(31, 184, 255);">
+                  <b>Chile</b>
+                </font>
+              </h5>
+              <h5>
+                <ul class="list-unstyled" style="font-family: &quot;DM Sans&quot;, &quot;Odoo Unicode Support Noto&quot;, sans-serif; font-size: 14px;">
+                  <li class="py-1">
+                    <font style="font-size: 10px;">
+                      <br/>
+                    </font>
+                  </li>
+                  <li class="py-1">
+                    <font style="font-size: 10px;">Automotive Solutions Services</font>
+                  </li>
+                  <li class="py-1">
+                    <font style="font-size: 10px;">Las Condes 9225, Las Condes,</font>
+                  </li>
+                  <li class="py-1">
+                    <font style="font-size: 10px;">-Santiago Metropolitan Region</font>
+                  </li>
+                  <li class="py-1">
+                    <font style="font-size: 10px;">Tel: +56228458259&amp;nbsp;</font>
+                  </li>
+                  <li class="py-1">
+                    <font style="font-size: 10px;">Instagram @Soluciones_tec_cl&amp;nbsp;</font>
+                  </li>
+                </ul>
+              </h5>
+              <ul class="list-unstyled">
+              </ul>
+            </div>
+
+             <div class="o_colored_level pb0 col-lg-2">
+              <h5 style="color: rgb(255, 255, 255);">
+                <font style="color: rgb(31, 184, 255);">
+                  <b>Contact Us</b>
+                </font>
+              </h5>
+              <h5>
+                <ul class="list-unstyled" style="font-family: &quot;DM Sans&quot;, &quot;Odoo Unicode Support Noto&quot;, sans-serif; font-size: 14px;">
+                  <li class="py-1">
+                    <font style="font-size: 10px;">
+                      <br/>
+                    </font>
+                  </li>
+                  <li class="py-1">
+                    <font style="font-size: 10px;">atencionservicios@greep.cl&amp;nbsp;</font>
+                  </li>
+                  <li class="py-1">
+                    <font style="font-size: 10px;">Business hours Monday to Friday: 07:00-11:00 (GMT)</font>
+                  </li>
+                 
+                </ul>
+              </h5>
+              <ul class="list-unstyled">
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+  </xpath>
+
+
+
+  </template>
+
+      <template id="footer_custom_website" inherit_id="website.footer_custom">
+      
+      <xpath expr="//footer//span[hasclass('o_footer_copyright_name')]" position="replace">
+          <span class="mr-2 o_footer_copyright_name">
+            <font style="font-size: 8px;" class="text-600">Servicios Automoviles Greep 2023 ©&amp;nbsp; - All rights reserved. -&amp;nbsp;<a href="/politicas" target="_blank" data-original-title="" title="" aria-describedby="tooltip638273">Politicas de privacidade</a>&amp;nbsp;- <a href="https://greep.cl/" target="blank"> Desarrollo Odoo / Greep</a></font>
+          </span>
+        </xpath>
+
+         <xpath expr="//footer[@id='bottom']" position="attributes">
+          <attribute name="t-attf-class" add="#{'d-none o_snippet_invisible' if 'footer_visible' in main_object and not main_object.footer_visible else ''}" separator=" "/>
+        </xpath>
+    </template>
+
+
+  </data>
+</odoo>

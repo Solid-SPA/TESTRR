@@ -1,0 +1,157 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_car_maintenance
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-14 16:19+0000\n"
+"PO-Revision-Date: 2023-01-14 16:19+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: website_car_maintenance
+#: model_terms:ir.ui.view,arch_db:website_car_maintenance.footer_custom_website
+msgid "&amp;nbsp;-"
+msgstr ""
+
+#. module: website_car_maintenance
+#: model_terms:ir.ui.view,arch_db:website_car_maintenance.THomeServicesFrontendLayoutFooter
+msgid ""
+"<font style=\"color: rgb(31, 184, 255);\">\n"
+"                  <b>Chile</b>\n"
+"                </font>"
+msgstr ""
+
+#. module: website_car_maintenance
+#: model_terms:ir.ui.view,arch_db:website_car_maintenance.THomeServicesFrontendLayoutFooter
+msgid ""
+"<font style=\"color: rgb(31, 184, 255);\">\n"
+"                  <b>Contact Us</b>\n"
+"                </font>"
+msgstr ""
+
+#. module: website_car_maintenance
+#: model_terms:ir.ui.view,arch_db:website_car_maintenance.THomeServicesFrontendLayoutFooter
+msgid "<font style=\"font-size: 10px;\">-Santiago Metropolitan Region</font>"
+msgstr ""
+
+#. module: website_car_maintenance
+#: model_terms:ir.ui.view,arch_db:website_car_maintenance.THomeServicesFrontendLayoutFooter
+msgid "<font style=\"font-size: 10px;\">Automotive Solutions Services</font>"
+msgstr ""
+
+#. module: website_car_maintenance
+#: model_terms:ir.ui.view,arch_db:website_car_maintenance.THomeServicesFrontendLayoutFooter
+msgid ""
+"<font style=\"font-size: 10px;\">Business hours Monday to Friday: "
+"07:00-11:00 (GMT)</font>"
+msgstr ""
+
+#. module: website_car_maintenance
+#: model_terms:ir.ui.view,arch_db:website_car_maintenance.THomeServicesFrontendLayoutFooter
+msgid ""
+"<font style=\"font-size: 10px;\">Instagram "
+"@Soluciones_tec_cl&amp;nbsp;</font>"
+msgstr ""
+
+#. module: website_car_maintenance
+#: model_terms:ir.ui.view,arch_db:website_car_maintenance.THomeServicesFrontendLayoutFooter
+msgid "<font style=\"font-size: 10px;\">Las Condes 9225, Las Condes,</font>"
+msgstr ""
+
+#. module: website_car_maintenance
+#: model_terms:ir.ui.view,arch_db:website_car_maintenance.THomeServicesFrontendLayoutFooter
+msgid "<font style=\"font-size: 10px;\">Tel: +56228458259&amp;nbsp;</font>"
+msgstr ""
+
+#. module: website_car_maintenance
+#: model_terms:ir.ui.view,arch_db:website_car_maintenance.THomeServicesFrontendLayoutFooter
+msgid ""
+"<font style=\"font-size: 10px;\">atencionservicios@greep.cl&amp;nbsp;</font>"
+msgstr ""
+
+#. module: website_car_maintenance
+#: model_terms:ir.ui.view,arch_db:website_car_maintenance.THomeServices
+msgid ""
+"<span style=\"font-size: 11pt;  font-family: Montserrat, sans-serif; color: "
+"var(--off-white); background-color: transparent; \">Automotive tuning, car "
+"tuning, automobiles, vehicles, engine tuning. </span>"
+msgstr ""
+
+#. module: website_car_maintenance
+#: model_terms:ir.ui.view,arch_db:website_car_maintenance.THomeServices
+msgid ""
+"<span style=\"font-size: 11pt;  font-family: Montserrat, sans-serif; color: "
+"var(--off-white); background-color: transparent;\">At Autosonline, you will "
+"find the best offer at convenient prices, for services that change brake "
+"pads, repair ABS brakes, rectify and change discs, in Santiago, and regions "
+"throughout Chile. Quote online now! You just have to select the company of "
+"your interest and you will get the best advice from its executives.</span>"
+msgstr ""
+
+#. module: website_car_maintenance
+#: model_terms:ir.ui.view,arch_db:website_car_maintenance.THomeServices
+msgid ""
+"<span style=\"font-size: 11pt;  font-family: Montserrat, sans-serif; color: "
+"var(--off-white); background-color: transparent;\">Cleaning Diesel and "
+"Petrol Car Injectors, for Vehicles, Cars, Trucks, Electronic Injection. You "
+"can also review information about Injectors and Diesel Injection. Cleaning "
+"of Injectors by Ultrasound, Cleaning of Injectors by Sweeping.</span>"
+msgstr ""
+
+#. module: website_car_maintenance
+#: model_terms:ir.ui.view,arch_db:website_car_maintenance.THomeServices
+msgid ""
+"<span style=\"font-size: 11pt;  font-family: Montserrat, sans-serif; color: "
+"var(--off-white); background-color: transparent;\">Find all the information "
+"of companies that repair Automotive air conditioning. Air conditioning "
+"repair for all types of cars and vehicles in Chile.</span>"
+msgstr ""
+
+#. module: website_car_maintenance
+#: model_terms:ir.ui.view,arch_db:website_car_maintenance.THomeServices
+msgid "Automotive Air Conditioning Repair"
+msgstr ""
+
+#. module: website_car_maintenance
+#: model_terms:ir.ui.view,arch_db:website_car_maintenance.THomeServices
+msgid "Change of brake pads"
+msgstr ""
+
+#. module: website_car_maintenance
+#: model_terms:ir.ui.view,arch_db:website_car_maintenance.THomeServices
+msgid "Cleaning of injectors"
+msgstr ""
+
+#. module: website_car_maintenance
+#: model_terms:ir.ui.view,arch_db:website_car_maintenance.footer_custom_website
+msgid "Desarrollo Odoo / Greep"
+msgstr ""
+
+#. module: website_car_maintenance
+#: model_terms:ir.ui.view,arch_db:website_car_maintenance.THomeServices
+msgid "Engine tuning"
+msgstr ""
+
+#. module: website_car_maintenance
+#: model_terms:ir.ui.view,arch_db:website_car_maintenance.THomeServices
+msgid "Maintenance for your car"
+msgstr ""
+
+#. module: website_car_maintenance
+#: model_terms:ir.ui.view,arch_db:website_car_maintenance.footer_custom_website
+msgid "Politicas de privacidade"
+msgstr ""
+
+#. module: website_car_maintenance
+#: model_terms:ir.ui.view,arch_db:website_car_maintenance.footer_custom_website
+msgid ""
+"Servicios Automoviles Greep 2023 ©&amp;nbsp; - All rights reserved. "
+"-&amp;nbsp;"
+msgstr ""
